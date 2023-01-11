@@ -1,4 +1,4 @@
-# **Software_engineering_proect**
+# **Software_engineering_project**
 
 ## **Runtime**
 *Python 3.10.6*

@@ -13,7 +13,7 @@ client = TestClient(app)
 def test_drawing_picture():
 # проверка, является ли изображением результат функции
 
-    promt = 'little girl with a flower'
+    prompt = "little girl with a flower"
     model_id = "CompVis/stable-diffusion-v1-4" # выбранная предобученная модель
     pipe = StableDiffusionPipeline.from_pretrained(model_id, revision="fp16", torch_dtype=torch.float16)
 

@@ -5,5 +5,4 @@ diffusers
 torch 
 accelerate
 IPython
-PIL
 pillow

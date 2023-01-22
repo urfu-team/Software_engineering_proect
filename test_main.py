@@ -6,6 +6,8 @@ from IPython.display import display
 from fastapi.testclient import TestClient
 from main import app
 
+import PIL
+
 client = TestClient(app)
 
 def test_drawing_picture():
